@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    #div1 {
+      height: 80px;
+      width: 80px;
+      background-color: aqua;
+    }
+    #div2 {
+      height: 80px;
+      width: 80px;
+      background-color: burlywood;
+    }
+
+    #div3 {
+      height: 80px;
+      width: 80px;
+      background-color: chartreuse;
+    }
+  </style>
+
+  <body>
+    <div id="div1">1</div>
+    <div id="div2">2</div>
+    <div id="div3">3</div>
+    <button id="button1">Fadeout</button>
+    <button id="button2">FadeIn</button>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $("#div1").fadeout();
+      $("#div2").fadeout(2000);
+      $("#div3").fadeout(3000);
+    });
+    $("button2").click(function () {
+      $("#div1").fadeIn();
+      $("#div2").fadein("slow");
+      $("#div3").fadein(3000);
+    });
+    $().click(
+function(){
+    $("b1").hide()
+}
+    );
+    
+  </script>
+</html>

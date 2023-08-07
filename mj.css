@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5HdQjQfEspAc0ZU3WFOPl_EVJqIGrvBJp3Q&usqp=CAU);
+  }
+  .container{
+    padding-top: 85px;
+    
+  
+  }
+  .row{
+    display: flex;
+    justify-content: space-around;
+  }
+  
